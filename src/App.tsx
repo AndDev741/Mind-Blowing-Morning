@@ -1,9 +1,12 @@
-function App() {
+import React from 'react'
+import Button from './components/Buttons/Button'
+
+const App = () => {
   return (
     <>
-      <p>hello world</p>
+    <Button outline="outline" >hello</Button>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
