@@ -1,11 +1,17 @@
 import React from 'react'
 import './Button.css'
-const Button = (   {children, outline } ) => {
-  console.log( children , outline )
+
+type buttonProps = React.DetailedHTMLProps<React.ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement> & {
+  children? : string
+  outline? : string
+}
+
+const Button = ( props : buttonProps) => {
+  // console.log( children , outline )
     return (
-    <button className={ `btn ${ outline }` } >
+    <button className={ `btn ${ props.outline }` } >
         {
-            children 
+           props.children 
         }
     </button>
   )
