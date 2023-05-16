@@ -2,17 +2,13 @@
 {
     color: white;
     padding: .4rem;
-    background-color: orangered;
+    background-color: var(--primary-color);
     border-radius: 8px;
     font-weight: 600;
+    transition: 0.3s;
 
 }
 .btn:hover
 {
-    background-color: yellow;
-}
-.outline
-{
-    background: transparent;
-    border: solid 2px orange;
+    background-color: hsl(23, 50%, 40%);
 }
