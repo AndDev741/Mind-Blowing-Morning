@@ -2,7 +2,20 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    screens: {
+      sm: "481px",
+      md: "769px",
+      lg: "993px",
+      xl: "1281px",
+      "2xl": "1536px",
+    },
+
+    extend: {
+      colors: {
+        lightGray: "#5C5C5C",
+        primaryOrange: "#F47D31",
+      },
+    },
   },
   plugins: [],
 };
