@@ -1,13 +1,14 @@
 // import React from 'react'
-import Button from "./components/Buttons/Button";
-import Footer from "./components/footer/Footer";
-import Home from "./pages/Home";
+// import Button from './components/Buttons/Button'
+// import Rating from './components/Rating_Section/Rating'
+// import Footer from './components/footer/Footer'
+import About from './pages/About'
 
 const App = () => {
   return (
     <>
-    <Home></Home>
-    <Button style={{height:'300px'}}></Button>
+    <About></About>
+
     </>
   );
 };
