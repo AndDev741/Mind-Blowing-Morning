@@ -10,7 +10,7 @@ export default function About() {
         <div className="impara flex justify-row ">
           <div className="bg">
             <h4 className="heading">The simple <br/>solution for a <br/>productive <br/>
-              day is nothing <br/>but to <span>Start it <br/>early.</span><Button style={{padding:".4rem 1.4rem",margin:"7px"}}>Start</Button></h4>
+              day is nothing <br/>but to <span>Start it <br/>early.</span><Button className='Btn'>Start</Button></h4>
           </div>
           <div className="paras ml-7">
             <h4 className="heading1">We are aware, are you?</h4>
