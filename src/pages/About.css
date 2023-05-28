@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
+
+:root{
+    --font-raleway : Raleway ;
+    --primary-color : #F47D31;
+ }
+ /* *{
+   font-family: var(--font-raleway);
+ } */
+ 
+ .bg{
+    background-image: url("./Abt_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    aspect-ratio: 1;
+ }
+ .heading1{
+   color: var(--primary-color);
+   font-weight: bolder;
+   font-size: larger;
+ }
+ .heading{
+   color: white;
+   font-size: 25px;
+   font-weight: bolder;
+   margin-top: 40%;
+   margin-left: 55%;
+ }
+ span{
+   color: #3c3c3c;
+ }
+ .Btn{
+   margin:10px;
+   padding:7px 10px;
+ }
+ .para{
+   margin-top: 1.5em ;
+ }
