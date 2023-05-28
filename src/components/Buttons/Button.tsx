@@ -6,9 +6,9 @@ type buttonProps = React.DetailedHTMLProps<React.ButtonHTMLAttributes<HTMLButton
 
 }
 
-const Button = ( props : buttonProps) => {
+const Button = ( {className , ...props} : buttonProps) => {
     return (
-    <button className={ `btn ${props.className}` } >
+    <button className={ `btn ${className}`} {...props} >
         {
            props.children 
         }

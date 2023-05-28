@@ -1,5 +1,5 @@
-import logo from "../../assets/logo.svg";
 
+import logo from "../../assets/logo.svg";
 export default function Footer() {
   return (
     <footer className="flex gap-x-2 text-lightGray text-lg">

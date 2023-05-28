@@ -15,6 +15,9 @@ export default {
         lightGray: "#5C5C5C",
         primaryOrange: "#F47D31",
       },
+      fontFamily:{
+        mainFont:"var(--font-raleway)"
+      }
     },
   },
   plugins: [],
