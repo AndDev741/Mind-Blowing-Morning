@@ -1,17 +1,17 @@
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/footerLogo.svg";
 import insta from "../../assets/instagram.svg";
 import twitter from "../../assets/twitter.svg";
 import facebook from "../../assets/facebook.svg";
 
 export default function Footer() {
   return (
-    <footer className="bg-footerBg py-8 px-6 text-[13px] text-lightGray sm:text-lg sm:px-16 lg:flex lg:px-6 lg:text-base lg:justify-between">
-      <div className="hidden lg:block lg:w-48">
+    <footer className="bg-footerBg py-8 px-6 text-[13px] text-lightGray sm:text-lg sm:px-16 lg:flex lg:px-6 lg:text-base lg:justify-between 2xl:px-32">
+      <div className="hidden lg:block lg:w-48 xl:w-60">
         <img src={logo} alt="logo" className="w-[90px] h-16" />
         <p className="font-bold leading-[20px] my-4">
           Clear your thoughts, Focus your mind, and Reduce stress!
         </p>
-        <button className="h-14 bg-primaryOrange rounded-xl font-bold capitalize text-white w-44 text-lg xl:text-2xl xl:w-[416px]">
+        <button className="h-14 bg-primaryOrange rounded-xl font-bold capitalize text-white w-44 text-lg xl:text-2xl xl:w-full">
           Submit
         </button>
       </div>
