@@ -8,7 +8,7 @@ const Home = () => {
     <div className="home w-screen">
     <About></About>
     <Instructor/>
-    {/* <Footer/> */}
+    <Footer/>
     </div>
 
   )
