@@ -1,4 +1,4 @@
-// import React from 'react'
+import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Button from "./components/Buttons/Button";
 import Footer from "./components/footer/Footer";
@@ -9,11 +9,13 @@ import Courses from "./pages/Courses";
 import Community from "./pages/Community";
 import Contact from "./pages/Contact";
 import Payment from "./Payment";
+import Dashboard from "./pages/Dashboard";
 
 const App = () => {
   return (
     <>
       <Navbar />
+      <Dashboard />
       {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
