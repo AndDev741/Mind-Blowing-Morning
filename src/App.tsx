@@ -6,7 +6,7 @@ import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Courses from "./pages/Courses";
-import Community from "./pages/Community";
+import Community from "./pages/Community_Page/Community";
 import Contact from "./pages/Contact";
 import Payment from "./pages/Payment";
 import Dashboard from "./pages/Dashboard";
@@ -24,7 +24,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
       </Routes> */}
       <Payment></Payment>
-      
+      <Community/>
       <Footer />
     </>
   );
