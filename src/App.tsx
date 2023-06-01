@@ -8,7 +8,7 @@ import About from "./pages/About";
 import Courses from "./pages/Courses";
 import Community from "./pages/Community";
 import Contact from "./pages/Contact";
-import Payment from "./Payment";
+import Payment from "./pages/Payment";
 import Dashboard from "./pages/Dashboard";
 
 const App = () => {
