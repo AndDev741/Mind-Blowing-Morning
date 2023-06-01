@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Courses from "./pages/Courses";
 import Community from "./pages/Community";
 import Contact from "./pages/Contact";
+import Payment from "./Payment";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/community" element={<Community />} />
         <Route path="/contact" element={<Contact />} />
       </Routes> */}
+      <Payment></Payment>
       <Footer />
     </>
   );

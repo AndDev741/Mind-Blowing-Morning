@@ -1,0 +1,14 @@
+li{
+    margin: 15px;
+}
+.del{
+    margin-left: 0;
+}
+.justli,.discount{
+    color: coral;
+
+}
+.BTN{
+    padding: 5px 170px;
+    margin-bottom: 90px;
+}
