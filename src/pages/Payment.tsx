@@ -6,7 +6,7 @@ import './payment.css'
 export default function Payment() {
   return (
     <>
-    <div className="container flex justify-center flex-col items-center">
+    <div className="container flex justify-center flex-col items-center ml-0">
       <div className="main">
         <h4 className=''><b>Payment Details</b></h4>
         <p className=' mt-4'>One Course: Mind Blowing Mornings: Wellness Program</p>
