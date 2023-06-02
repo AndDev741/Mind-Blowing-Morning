@@ -3,14 +3,16 @@ import './Button.css'
 
 type buttonProps = React.DetailedHTMLProps<React.ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement> & {
   children? : string
-  outline? : string
-}
-const btn = [ '1','2','3','4','5','6','7','8' ]
-const Button = ( props : buttonProps) => {
-  // console.log( children , outline )
 
+}
+
+const Button = ( {className , ...props} : buttonProps) => {
     return (
-    btn.map( ( element )=> <button className='btn' id={ element } >{ element }</button>  )
+    <button className={ `btn ${className}`} {...props} >
+        {
+           props.children 
+        }
+    </button>
   )
 }
 
