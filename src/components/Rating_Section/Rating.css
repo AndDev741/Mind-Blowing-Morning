@@ -29,7 +29,6 @@ h1{
 }
 .testimonial{
     background: linear-gradient(90deg, hsla(193, 60%, 63%, .4) -0.55%, hsla(223, 50%, 52%, .4) -0.54%, hsla(223, 50%, 52%, .4) -0.53%, hsla(48, 60%, 50%, .4) 39.19%, hsla(23, 40%, 57%, .4) 89.34%);
-
     height:300px;
     width: 610px;
     display: flex;
@@ -52,7 +51,7 @@ h1{
 div .comment{
     width: 233px;
 }
-img{
+.pinfo img{
     border-radius: 50%;
  
 }

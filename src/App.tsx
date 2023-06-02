@@ -1,6 +1,13 @@
 // import React from 'react'
-// import Button from './components/Buttons/Button'
-// import Footer from './components/footer/Footer'
+import { Route, Routes } from "react-router-dom";
+// import Button from "./components/Buttons/Button";
+import Footer from "./components/footer/Footer";
+import Navbar from "./components/navbar/Navbar";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Courses from "./pages/Courses/Courses";
+import Community from "./pages/Community";
+import Contact from "./pages/Contact";
 
 import Hero from "./components/Hero/Hero"
 
@@ -9,13 +16,17 @@ Hero
 const App = () => {
   return (
     <>
-    <Hero/>
-     {/* <Button/>
-     <Rating/>
-     <Footer/> */}
-     
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/community" element={<Community />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
