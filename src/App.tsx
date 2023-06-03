@@ -17,17 +17,17 @@ const App = () => {
     {/* <Button outline="outline" >hello</Button> */}
     {/* <Coursedetail/> */}
       <Navbar />
-      <Dashboard />
-      {/* <Routes>
+      {/* <Dashboard /> */}
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/community" element={<Community />} />
         <Route path="/contact" element={<Contact />} />
-      </Routes> */}
-      <Payment></Payment>
-      <Community/>
-      <Footer />
+      </Routes>
+      {/* <Payment></Payment>
+      <Community/> */}
+      {/* <Footer /> */}
     </>
   );
 };
