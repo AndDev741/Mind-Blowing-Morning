@@ -37,7 +37,7 @@ export default function About() {
           <h4 className="heading1 mt-9">Why should your organization invest in wellness Coaching? </h4>
           <p className="para">
 
-            <div> •Increase Employee Productivity</div>
+            <div>•Increase Employee Productivity</div>
             <div>•Team Building and Communication</div>
             <div>•Better Focused Teams</div>
             <div>•Healthier and Happier Employees</div>

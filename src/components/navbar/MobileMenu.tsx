@@ -1,4 +1,5 @@
 import menu from "../../assets/hamburger-menu.svg";
+import x from "../../assets/x.svg";
 import { Link } from "react-router-dom";
 
 type MobileMenuProps = {
@@ -10,8 +11,11 @@ export default function MobileMenu(props: MobileMenuProps) {
   const { open, setOpen } = props;
   return (
     <>
-      <button onClick={() => setOpen((prevState: boolean) => !prevState)}>
-        <img src={menu} alt="hamburger menu" />
+      <button
+        onClick={() => setOpen((prevState: boolean) => !prevState)}
+        className="lg:hidden"
+      >
+        <img src={open ? x : menu} alt="hamburger menu" />
       </button>
 
       {open && (
