@@ -6,8 +6,8 @@ export const About = () => {
     <div className=' w-screen h-[20vh] '>
 
     </div>
-    <div className='about_section w-screen  box-border bg-primaryOrange min-h-[80vh] relative flex items-center justify-center'>
-        <img src={cute} className='absolute top-[calc(0px-87px)] w-[200px] h-[100px]'></img>
+    <div className='about_section w-screen  box-border bg-primaryOrange relative flex items-center justify-center'>
+        <img alt='About' src={cute} className='absolute top-[calc(0px-87px)] w-[200px] h-[100px]'></img>
         
         <div className="about_container bg-slate-400 flex flex-col lg:flex-row max-w-[90%] my-6">
             <div className="left lg:w-max w-full flex bg-primaryOrange py-3 pr-14" >
