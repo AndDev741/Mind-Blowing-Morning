@@ -3,9 +3,7 @@ import cute from '../../assets/cute.svg'
 export const About = () => {
   return (
     <>
-    <div className=' w-screen h-[20vh] '>
-
-    </div>
+    
     <div className='about_section w-screen  box-border bg-primaryOrange relative flex items-center justify-center'>
         <img alt='About' src={cute} className='absolute top-[calc(0px-87px)] w-[200px] h-[100px]'></img>
         
