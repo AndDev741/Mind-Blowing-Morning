@@ -11,17 +11,15 @@ import Contact from "./pages/Contact";
 import Payment from "./pages/Payment";
 import Dashboard from "./pages/Dashboard";
 
-import Hero from "./components/Hero/Hero"
+import Hero from "./components/Hero/Hero";
 
 // import Rating from './components/Rating_Section/Rating'
-Hero
+Hero;
 const App = () => {
   return (
     <>
-    {/* <Button outline="outline" >hello</Button>  */}
-    {/* {/* <Coursedetail/> */}
-      <Navbar />
-      <Dashboard />
+      {/* <Button outline="outline" >hello</Button>  */}
+      {/* {/* <Coursedetail/> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -29,9 +27,6 @@ const App = () => {
         <Route path="/community" element={<Community />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Payment></Payment>
-      <Community/>
-      <Footer />
     </>
   );
 };
