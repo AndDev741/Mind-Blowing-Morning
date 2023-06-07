@@ -23,14 +23,13 @@ const App = () => {
     <>
       {/* <Button outline="outline" >hello</Button>  */}
       {/* {/* <Coursedetail/> */}
-      {/* <Routes>
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/community" element={<Community />} />
         <Route path="/contact" element={<Contact />} />
-      </Routes> */}
-      <SignupForm />
+      </Routes>
     </>
   );
 };
