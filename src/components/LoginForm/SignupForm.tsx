@@ -5,7 +5,7 @@ import LoginCard from "./LoginCard";
 import gIcon from "../../assets/g-icon.svg";
 import checkIcon from "../../assets/check.svg";
 
-const LoginForm = () => {
+const SignupForm = () => {
   return (
     <div className="w-[1060px] p-20 h-[800px] bg-white rounded-2xl grid grid-cols-2 items-center font-mainFont">
       <LoginCard />
@@ -15,7 +15,18 @@ const LoginForm = () => {
             <img src={gIcon} alt="google icon" />
             <span className="font-mainFont">Sign in with google</span>
           </button>
-          <span className="text-center">Or signin with your email</span>
+          <span className="text-center">Or signup with your email</span>
+          <div>
+            <label htmlFor="name" className="font-medium text-[#0A033C]">
+              Name
+            </label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Ramesh Singh"
+              className="rounded-lg border border-[#DEDDE4] w-full h-[50px] pl-4"
+            />
+          </div>
           <div>
             <label htmlFor="email" className="font-medium text-[#0A033C]">
               Email
@@ -38,19 +49,22 @@ const LoginForm = () => {
               className="rounded-lg border border-[#DEDDE4] w-full h-[50px] pl-4"
             />
           </div>
+          <span className="text-[#5D5A6F] font-medium flex gap-2 justify-center">
+            <img src={checkIcon} alt="check sign" />
+            <span>I agreed to the Terms & Conditions</span>
+          </span>
           <button className="font-medium text-white bg-primaryOrange w-full h-[50px] rounded-xl">
-            Sign In
+            Sign Up
           </button>
         </form>
-        <div className="flex mt-4 items-center justify-between">
-          <div className="text-[#5D5A6F] font-medium flex gap-2">
-            <img src={checkIcon} alt="check sign" />
-            <p>keep me signed in</p>
-          </div>
-          <a href="#">Forgot password?</a>
+        <div className="text-center mt-4">
+          <span>Alreay have account? </span>
+          <a href="#" className="text-primaryOrange">
+            Sign In
+          </a>
         </div>
       </div>
     </div>
   );
 };
-export default LoginForm;
+export default SignupForm;

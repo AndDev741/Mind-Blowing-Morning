@@ -12,6 +12,9 @@ import Payment from "./pages/Payment";
 import Dashboard from "./pages/Dashboard";
 
 import Hero from "./components/Hero/Hero";
+import LoginForm from "./components/LoginForm/LoginForm";
+import LoginCard from "./components/LoginForm/LoginCard";
+import SignupForm from "./components/LoginForm/SignupForm";
 
 // import Rating from './components/Rating_Section/Rating'
 Hero;
@@ -20,13 +23,14 @@ const App = () => {
     <>
       {/* <Button outline="outline" >hello</Button>  */}
       {/* {/* <Coursedetail/> */}
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/community" element={<Community />} />
         <Route path="/contact" element={<Contact />} />
-      </Routes>
+      </Routes> */}
+      <SignupForm />
     </>
   );
 };
