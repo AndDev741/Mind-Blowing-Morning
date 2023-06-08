@@ -5,27 +5,38 @@ import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Courses from "./pages/Courses";
-import Community from "./pages/Community";
-import Contact from "./pages/contactpage/Contact";
+import Courses from "./pages/Courses/Courses";
+import Community from "./pages/Community_Page/Community";
+import Contact from "./pages/Contact";
 import Payment from "./pages/Payment";
 import Dashboard from "./pages/Dashboard";
 
+import Hero from "./components/Hero/Hero";
+import LoginForm from "./components/LoginForm/LoginForm";
+import LoginCard from "./components/LoginForm/LoginCard";
+import SignupForm from "./components/LoginForm/SignupForm";
+
+// import Rating from './components/Rating_Section/Rating'
+Hero;
 const App = () => {
   return (
     <>
-      <Navbar />
-      <Dashboard />
-      {/* <Routes>
+      {/* <Button outline="outline" >hello</Button>  */}
+      {/* {/* <Coursedetail/> */}
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/community" element={<Community />} />
         <Route path="/contact" element={<Contact />} />
+<<<<<<< HEAD
       </Routes> */}
       <Payment></Payment>
       <Contact></Contact>
       <Footer />
+=======
+      </Routes>
+>>>>>>> d6c1be967982db409063ce2cd625409e95827e64
     </>
   );
 };

@@ -9,7 +9,7 @@ export default function About() {
       <div className=" container  mt-3">
         <div className="impara flex justify-row ">
           <div className="bg">
-            <h4 className="heading">The simple <br />solution for a <br />productive <br />
+            <h4 className="heading2">The simple <br />solution for a <br />productive <br />
               day is nothing <br />but to <span>Start it <br />early.</span>
               <Button className='Btn'>Start</Button></h4>
           </div>
@@ -37,7 +37,7 @@ export default function About() {
           <h4 className="heading1 mt-9">Why should your organization invest in wellness Coaching? </h4>
           <p className="para">
 
-            <div> •Increase Employee Productivity</div>
+            <div>•Increase Employee Productivity</div>
             <div>•Team Building and Communication</div>
             <div>•Better Focused Teams</div>
             <div>•Healthier and Happier Employees</div>
