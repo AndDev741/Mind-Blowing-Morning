@@ -29,14 +29,7 @@ const App = () => {
         <Route path="/courses" element={<Courses />} />
         <Route path="/community" element={<Community />} />
         <Route path="/contact" element={<Contact />} />
-<<<<<<< HEAD
-      </Routes> */}
-      <Payment></Payment>
-      <Contact></Contact>
-      <Footer />
-=======
       </Routes>
->>>>>>> d6c1be967982db409063ce2cd625409e95827e64
     </>
   );
 };
