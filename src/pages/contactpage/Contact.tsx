@@ -15,11 +15,11 @@ export default function Contact() {
             <img src="./src/pages/contactpage/Ellipse 86.png" alt="" />
           </div>
         </div>
-        <div className=" flex justify-center flex-col w-[80%] m-auto my-10 pb-36 mt-[-70px] bg-white Border" style={{boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",zIndex:"1"}}>
-          <div className=" m-auto mb-12 mt-6">
-            <p className=" font-bold"><span style={{color:"black",fontSize:"1.9rem"}}>Have a question?</span><span className="mx-3" style={{color:"coral",fontSize:"1.9rem"}}>Talk to us.</span></p>
+        <div className=" flex justify-center flex-col w-[80%] mx-auto my-10 pb-20 bg-white Border" style={{boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",zIndex:"1", marginTop:"-70px"}}>
+          <div className=" m-auto mb-12 pt-28">
+            <p className=" font-bold mb-10"><span style={{color:"black",fontSize:"1.9rem"}}>Have a question?</span><span className="mx-3" style={{color:"coral",fontSize:"1.9rem"}}>Talk to us.</span></p>
           </div>
-          <div className=" flex justify-evenly">
+          <div className=" flex justify-evenly mt-10">
             <div className="contact">
               <img src="./src/pages/contactpage/Mail.svg"  alt="" />
               <p className=" font-bold"style={{color:"coral",fontSize:"1.4rem"}}>EMAIL US AT</p>
@@ -41,10 +41,10 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center flex-col ">
+        <div className="flex justify-center flex-col my-10">
           <div className=" self-center">
             <p className='mx-[30px]'style={{color:"black",fontSize:"1.7rem"}}><b>We'd love to hear from you!</b></p>
-            <p className=''style={{color:"gray"}}>Drop us a message by filling this form and we'll get back to you</p>
+            <p className='my-2'style={{color:"gray"}}>Drop us a message by filling this form and we'll get back to you</p>
           </div>
           <div className="self-center mt-10 mb-4">
             <form>
