@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Courses from "./pages/Courses/Courses";
 import Community from "./pages/Community_Page/Community";
-import Contact from "./pages/Contact";
+import Contact from "./pages/contactpage/Contact";
 import Payment from "./pages/Payment";
 import Dashboard from "./pages/Dashboard";
 
