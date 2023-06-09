@@ -45,48 +45,48 @@ export default function Community() {
         <div className="scard my-10">
           <h4 className="Cheading font-bold" style={{ fontSize: "1.4rem", color: "#F47D31" }}>Did You Know !</h4>
           <div className="cards flex">
-            <div className="card my-2 mr-7 flex">
+            <div className="my-2 mr-7 flex">
               <div className=" m-2"><img src="./src/pages/Community_Page/Group 23.png" alt="" /></div>
               <div className="Info">
                 <h6 className="font-bold">Lorem ipsum dolor sit amet.</h6>
-                <p className="more font-extralight">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                <p className="more font-extralight mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
               </div>
             </div>
-            <div className="card my-2 mr-7 flex">
+            <div className="my-2 mr-7 flex">
               <div className=" m-2"><img src="./src/pages/Community_Page/Group 24.png" alt="" /></div>
               <div className="Info">
                 <h6 className="font-bold">Lorem ipsum dolor sit amet.</h6>
-                <p className="more font-extralight">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                <p className="more font-extralight mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
               </div>
             </div>
-            <div className="card my-2 flex">
+            <div className="my-2 flex">
               <div className=" m-2"><img src="./src/pages/Community_Page/Group 25.png" alt="" /></div>
               <div className="Info">
                 <h6 className="font-bold">Lorem ipsum dolor sit amet.</h6>
-                <p className="more font-extralight">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                <p className="more font-extralight mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
               </div>
             </div>
           </div>
           <div className="cards flex">
-            <div className="card my-2 mr-7 flex">
+            <div className="my-2 mr-7 flex">
               <div className=" m-2"><img src="./src/pages/Community_Page/Group 26.png" alt="" /></div>
               <div className="Info">
                 <h6 className="font-bold">Lorem ipsum dolor sit amet.</h6>
-                <p className="more font-extralight">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                <p className="more font-extralight mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
               </div>
             </div>
-            <div className="card my-2 mr-7 flex">
+            <div className="my-2 mr-7 flex">
               <div className=" m-2"><img src="./src/pages/Community_Page/Group 27.png" alt="" /></div>
               <div className="Info">
                 <h6 className="font-bold">Lorem ipsum dolor sit amet.</h6>
-                <p className="more font-extralight">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                <p className="more font-extralight mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
               </div>
             </div>
-            <div className="card my-2  flex">
+            <div className=" my-2  flex">
               <div className=" m-2"><img src="./src/pages/Community_Page/Group 28.png" alt="" /></div>
               <div className="Info">
                 <h6 className="font-bold">Lorem ipsum dolor sit amet.</h6>
-                <p className="more font-extralight">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                <p className="more font-extralight mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
               </div>
             </div>
           </div>
