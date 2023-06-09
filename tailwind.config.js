@@ -11,7 +11,7 @@ export default {
       xl: "1281px",
       "2xl": "1536px",
     },
-
+    prefix: "tw-",
     extend: {
       colors: {
         lightGray: "#5C5C5C",
