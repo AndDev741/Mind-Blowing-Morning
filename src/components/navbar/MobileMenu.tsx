@@ -52,6 +52,17 @@ export default function MobileMenu(props: MobileMenuProps) {
             className="bg-slate-200 mb-4 py-1 w-36 pl-2 rounded"
           >
             <Link
+              to="/login"
+              className="text-lg font-bold text-primaryOrange"
+            >
+              Login
+            </Link>
+          </li>
+          <li
+            onClick={() => setOpen((prevState: boolean) => !prevState)}
+            className="bg-slate-200 mb-4 py-1 w-36 pl-2 rounded"
+          >
+            <Link
               to="/community"
               className="text-lg font-bold text-primaryOrange"
             >

@@ -5,6 +5,13 @@
   padding: 0;
 }
 
+  #buttonSC{
+    background-color: #F47D31;
+    color: white;
+    border-radius: 8px;
+    font-size: 1.3em;
+  }
+
 .Hero1 {
   position: relative;
   /* background: linear-gradient(rgba(0,0,0,0.2) rgba(0,0,0,0.2)) url("../../assets/Background.png") ; */
@@ -60,7 +67,7 @@
   font-family: var(--font-raleway);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 575px) {
   .Hero1 {
     padding: 0 1.5rem;
     justify-content: center;
@@ -73,5 +80,44 @@
   .image {
     position: absolute;
     bottom: 0;
+  }
+
+  /* Responsive Changes to home page (big screen mobiles) */
+
+  .Hero1 {
+    height: 130vh;
+  }
+
+  #textSC {
+    font-size: 26px;
+    line-height: 182%;
+    width: 90vw;
+    margin-top: -50%;
+  }
+
+  #buttonSC {
+    font-size: 1em;
+    margin-top: -4%;
+  }
+
+  #imageSC {
+    width: 80vw;
+    max-width: 408px;
+  }
+
+}
+
+@media screen and (max-width: 390px){
+   /* Responsive Changes to home page (small screen mobiles) */
+
+  .Hero1{
+    height: 100vh;
+  }
+
+  #textSC {
+    font-size: 22px;
+    line-height: 182%;
+    width: 90vw;
+    margin-top: -60%;
   }
 }

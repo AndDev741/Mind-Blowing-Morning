@@ -1,0 +1,24 @@
+@media screen and (max-width: 600px) {
+    #ladyDiv{
+        margin-left: 10vw;
+    }
+    
+    #ladyImg {
+         width: 35vw;
+         margin-left: 12%;
+    }
+
+    .pItem{
+        font-size: 1.3em;        
+        font-family: 'raleway';
+        line-height: 25px;
+        font-weight: 400;
+    }
+}
+
+
+.pItem{       
+    font-family: 'raleway';
+    line-height: 25px;
+    font-weight: 400;
+}

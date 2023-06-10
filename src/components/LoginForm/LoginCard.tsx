@@ -1,8 +1,9 @@
 import Post6 from "../../assets/Post6.png";
+import "./LoginForm.css";
 
 export default function LoginCard() {
   return (
-    <div className="font-mainFont font-bold pr-12">
+    <div className="font-mainFont font-bold pr-12" id='hiddeIMG'>
       <p className="text-primaryOrange text-xl">
         Welcome to Mind Blowing mornings !
       </p>

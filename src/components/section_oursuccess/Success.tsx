@@ -7,11 +7,11 @@ import img3 from './project-1/Group 109-3.svg'
 import img4 from './project-1/34-Happy and Smile-4.svg'
 export default function Success() {
     return (
-        <div>
-            <div className="container-fluid" >
+        <div id='flex'>
+            <div className="container-fluid" id='flexID' >
 
                 <div className="row"  >
-                    <div className=" flex item-center , flex-col justify-center  col-lg-3 px-5" id="one" >
+                    <div className=" flex item-center , flex-col justify-center  col-lg-3 " id="one" >
                         <img className="aimage" src= {img1} width="60px" height="60px" />
                         <p className="apara">Qualified instructors</p>
                         <b className="abold" >1+</b>&nbsp;

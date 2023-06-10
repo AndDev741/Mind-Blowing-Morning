@@ -54,9 +54,9 @@ export default function Navbar() {
           </a>
           <img src={glass} alt="magnifying glass" className="h-6 w-6" />
         </div>
-        <button className="hidden py-[10px] bg-primaryOrange text-white w-[129px] h-14 rounded-xl text-lg font-bold uppercase lg:inline hover:bg-yellow-400 hover:shadow-navBtnShadow">
+       <Link to='/login'> <button className="hidden py-[10px] bg-primaryOrange text-white w-[129px] h-14 rounded-xl text-lg font-bold uppercase lg:inline hover:bg-yellow-400 hover:shadow-navBtnShadow">
           Log in
-        </button>
+        </button> </Link>
 
         {/* mobile menu */}
         <MobileMenu open={open} setOpen={setOpen} />

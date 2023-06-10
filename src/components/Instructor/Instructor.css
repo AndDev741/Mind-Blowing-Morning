@@ -1,0 +1,41 @@
+@media screen and (max-width: 600px){
+    #allDiv{
+        margin-top: -5%;
+    }
+    
+    #h2Small{
+        font-size: 1.6em;
+        margin-bottom: -10%;
+    }
+    
+    #pHidde{
+        display: none;
+    }
+
+    #instructor1{
+        margin-top: -15%;
+    }
+
+    #instructorP{
+        font-size: 1em;
+        line-height: 145%;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #instructor1{
+        margin-top: -15%;
+    }
+
+    #instructorP{
+        font-size: 0.7em;
+        width: 145px;
+        line-height: 145%;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+    }
+}

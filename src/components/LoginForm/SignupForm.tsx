@@ -1,4 +1,4 @@
-// import React from "react";
+ // import React from "react";
 import "./LoginForm.css";
 import Post6 from "../../assets/Post6.png";
 import LoginCard from "./LoginCard";
@@ -7,9 +7,9 @@ import checkIcon from "../../assets/check.svg";
 
 const SignupForm = () => {
   return (
-    <div className="w-[1060px] p-20 h-[800px] bg-white rounded-2xl grid grid-cols-2 items-center font-mainFont">
+    <div className="w-[1060px] p-20 h-[800px] bg-white rounded-2xl grid grid-cols-2 items-center font-mainFont" id='divMain'>
       <LoginCard />
-      <div className="border-l border-black pl-12">
+      <div className="border-l border-black pl-12" id='border'>
         <form className="text-[#5D5A6F] flex flex-col gap-4">
           <button className="h-[50px] flex border border-[#DEDDE4] rounded-lg w-full items-center gap-2">
             <img src={gIcon} alt="google icon" />

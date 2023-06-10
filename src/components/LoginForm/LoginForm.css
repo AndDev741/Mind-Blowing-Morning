@@ -1,8 +1,35 @@
-.loginform{
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
-z-index: 100000;
-border: 2px solid black;
+#divMain{
+ height: 100vh;
+width: 100vw;
 border-radius: 2rem;
+margin-top: -2%;
+}
+
+
+
+@media screen and (max-width:600px){
+    #hiddeIMG{
+        display: none;
+    }
+
+    #border{
+       border: none;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-right: 15%;
+       margin-top: -8%;
+    }
+    #divMain{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #divMain input{
+        width: 300px;
+    }
 }

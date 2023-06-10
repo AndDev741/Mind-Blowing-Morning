@@ -6,6 +6,8 @@ import Footer from "../components/footer/Footer";
 import Navbar from "../components/navbar/Navbar";
 // import LoginForm from "../components/LoginForm/LoginForm";
 import Work from "../components/frames/Work";
+import SignupForm from "../components/LoginForm/SignupForm";
+import Success from "../components/section_oursuccess/Success";
 const Home = () => {
   return (
     <div className="home w-screen">
@@ -13,6 +15,7 @@ const Home = () => {
       <Hero />
       <Work />
       <About />
+      <Success/>
       <Instructor />
       <Contact_section />
       <Footer />

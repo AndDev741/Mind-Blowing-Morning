@@ -7,18 +7,19 @@ const Hero = () => {
     <>
       <div className="Hero1" style={{ background: `url(${background})` }}>
         <div className="paragraph-Heading mb-5">
-          <p className="md:text-xl">
+          <p className="md:text-xl" id='textSC'>
             Transform your mind and body with our 21-day wellness
             <br />
             program . Join our community and unlock your limitless <br />
             potential today!.
           </p>
         </div>
-        <Button className="px-6 py-[0.5rem] Hero-button">Get Started</Button>
+        <Button className="px-6 py-[0.5rem] Hero-button" id='buttonSC'>Get Started</Button>
         <img
           src={image}
           className="image md:w-[250px] w-[170px] sm:w-[200px] lg:w-[340px] xl:w-[370px]"
           alt="Mind Blowing"
+          id='imageSC'
         ></img>
         <div className="black"></div>
       </div>
