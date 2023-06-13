@@ -9,7 +9,7 @@ interface CC {
   export const ccDetails: CC[] = [
     {
       id: 1,
-      title: "Week 1: Dealing with Distractions",
+      title: "Week 1: Introduction to Meditation",
       paragraph: "Take a moment to breathe deeply and engage in mindfulness techniques. Focus on the present moment and let go of worries about the past or future, allowing yourself to find inner calmness.",
     },
     {
