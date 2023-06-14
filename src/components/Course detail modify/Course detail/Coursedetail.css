@@ -1,0 +1,100 @@
+.container
+{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.rectangle-1 
+{
+    margin: 0;
+    padding-top: 100px;
+    padding-left: 0px;
+    Offset: 0px, 4px
+}
+
+.rectangle-2 
+{
+    margin: 0;
+    padding-top: 80px;  
+}
+
+
+.rectangle-3 
+{
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.rectangle-4 
+{
+    margin: 0;
+    padding-top: 80px;
+}
+
+.rectangle-5 
+{
+    margin: 0;
+    padding-top: 100px;
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .rectangle-1,
+    .rectangle-2,
+    .rectangle-3,
+    .rectangle-4,
+    .rectangle-5 {
+      padding: 0;
+      margin: 0;
+    }
+    
+  
+    .rectangle-3 {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    #rec1{
+        width: 300px;
+        order: 4;
+        margin-top: -20px;
+    }
+    #rec2{
+        width: 300px;
+        order: 2;
+    }
+    #rec3{
+        order: 1;
+        width: 300px;
+        margin-bottom: 0;
+    }
+    #rec4{
+        width: 300px;
+        order: 3;
+        justify-content: flex-end;
+        display: flex;
+    }
+    #rec5{
+        width: 300px;
+        order: 5;
+        margin-top: 10px;        
+        justify-content: flex-end;
+        display: flex;
+    }
+  }
+  
+  /* Large Screen Styles */
+  
+  
+  
+  

@@ -10,7 +10,7 @@ import Community from "./pages/Community_Page/Community";
 import Contact from "./pages/Contact";
 import Payment from "./pages/Payment";
 import Dashboard from "./pages/Dashboard";
-
+import Coursedetail from "./components/Course detail modify/Course detail/Coursedetail"
 const App = () => {
   return (
     <>
@@ -27,6 +27,7 @@ const App = () => {
       </Routes> */}
       <Payment></Payment>
       <Community/>
+      <Coursedetail/>
       <Footer />
     </>
   );
