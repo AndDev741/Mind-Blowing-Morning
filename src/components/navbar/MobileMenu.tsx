@@ -19,7 +19,7 @@ export default function MobileMenu(props: MobileMenuProps) {
       </button>
 
       {open && (
-        <ul className="flex absolute right-4 top-16 flex-col gap-x-8 lg:hidden">
+        <ul className="flex absolute right-4 top-16 flex-col gap-x-8 lg:hidden z-10">
           <li
             onClick={() => setOpen((prevState: boolean) => !prevState)}
             className="bg-slate-200 mb-4 py-1 w-36 pl-2 rounded"

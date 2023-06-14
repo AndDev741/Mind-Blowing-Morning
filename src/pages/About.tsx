@@ -6,14 +6,14 @@ import Button from '../components/Buttons/Button'
 export default function About() {
   return (
     <div className='section w-full flex justify-center items-center'>
-      <div className=" container  mt-3">
-        <div className="impara flex justify-row ">
-          <div className="bg">
-            <h4 className="heading">The simple <br />solution for a <br />productive <br />
+      <div className=" container-lg md:container  mt-1 md:mt-3">
+        <div className="impara flex justify-row  flex-col  lg:flex-row ">
+          <div className="bg relative mx-auto">
+            <h4 className="heading2 absolute bottom-2 right-2">The simple <br />solution for a <br />productive <br />
               day is nothing <br />but to <span>Start it <br />early.</span>
               <Button className='Btn'>Start</Button></h4>
           </div>
-          <div className="paras ml-7">
+          <div className="paras mt-3 md:ml-7 md:w-[75%]">
             <h4 className="heading1">We are aware, are you?</h4>
             <p className="para">In today’s fast-paced world, the rat race is not normal. We don't even identify ourselves with the damage we do to ourselves.</p>
             <p className="para">To address this cause and the importance of waking up early is our major agenda.</p>
@@ -56,15 +56,15 @@ export default function About() {
           <p className="para">We will bring you the most reliable giving options.
           </p>
           <p className="para">Our program is cleared an exhaustive due diligence process covering legal, financial, and implementation aspects.</p>
-          <div className=" flex justify-center"><Button className='Btn py-4 px-11'>Get Started</Button></div>
+          <div className=" flex justify-center"><Button className='Btn py-2 px-4 md:py-4 md:px-11'>Get Started</Button></div>
         </div>
         <div className="partners flex items-center justify-center flex-col my-10">
           <h3 style={{ color: "#3c3c3c", fontWeight: "bolder", fontSize: "30px", marginTop: "20px", alignSelf: "center" }}>Our Partners</h3>
-          <div className="flex justify-between w-full my-10 ">
-            <img src="./src/pages/flpcrt.png" alt="" />
-            <img src="./src/pages/amzn.png" alt="" />
-            <img src="./src/pages/Nykaa.png" alt="" />
-            <img src="./src/pages/meesho.png" alt="" />
+          <div className="flex justify-between w-full md:flex-row items-center gap-3 flex-col my-10">
+            <img src="./src/pages/flpcrt.png" alt="" className='w-[50%]'/>
+            <img src="./src/pages/amzn.png" alt=""  className='w-[50%]'/>
+            <img src="./src/pages/Nykaa.png" alt="" className='w-[50%]' />
+            <img src="./src/pages/meesho.png" alt="" className='w-[50%]'/>
           </div>
         </div>
       </div>

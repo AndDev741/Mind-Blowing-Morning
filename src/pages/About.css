@@ -21,7 +21,7 @@
    font-weight: bolder;
    font-size: 2rem;
  }
- .heading{
+ .heading2{
    color: white;
    font-size: 25px;
    font-weight: bolder;
@@ -39,9 +39,7 @@
    margin-top: 1em ;
    font-size: 23px;
  }
- .paras{
-  width: 75%;
- }
+ 
  .partners{
   position: relative;
  }
@@ -64,4 +62,21 @@
   bottom: 0;
   left: 50%;
   transform: translate(-50%);
+}
+
+@media screen and (width < 475px) {
+  .bg{
+   width: 100%;
+}
+.heading2{
+
+ font-size: 20px;
+ font-weight: bolder;
+
+}
+.heading1{
+ margin-top: 2rem;
+ font-size: 1.45rem;
+}
+ 
 }
