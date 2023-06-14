@@ -1,6 +1,6 @@
 // import React from "react";
 import "./LoginForm.css";
-import Post6 from "../../assets/Post6.png";
+// import Post6 from "../../assets/Post6.png";
 import LoginCard from "./LoginCard";
 import gIcon from "../../assets/g-icon.svg";
 import checkIcon from "../../assets/check.svg";
