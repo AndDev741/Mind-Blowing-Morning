@@ -13,11 +13,18 @@ export default {
     },
 
     extend: {
+      screens: {
+        mobile: '300px',
+      },
+
       colors: {
         lightGray: "#5C5C5C",
         primaryOrange: "#F47D31",
         footerBg: "#FAF6F4",
       },
+        borderColor: (theme) => ({
+          custom: theme('colors.primaryOrange'),
+        }),
 
       boxShadow: {
         footerInputShadow: "0px 3.33333px 3.33333px rgba(0, 0, 0, 0.25)",

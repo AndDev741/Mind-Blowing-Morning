@@ -7,7 +7,7 @@ export default function ScheduleCard(props: ScheduleCardType) {
   const { title, time } = props;
 
   return (
-    <div className="flex items-center justify-between px-12 w-[521px] h-[87px] bg-[#FFF7F2] rounded-2xl mb-5">
+    <div className="flex items-center justify-between px-12 w-[521px] h-[87px] bg-[#FFF7F2] rounded-2xl mb-3">
       <div className="flex items-center gap-x-8">
         <span className="h-3 w-3 rounded-full block bg-[#3649F9]"></span>
         <div>

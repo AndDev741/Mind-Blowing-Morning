@@ -73,6 +73,14 @@ export default function MobileMenu(props: MobileMenuProps) {
             onClick={() => setOpen((prevState: boolean) => !prevState)}
             className="bg-slate-200 mb-4 py-1 w-36 pl-2 rounded"
           >
+            <Link to='/dashboard' className="text-lg font-bold text-primaryOrange">
+              Dashboard
+            </Link>
+          </li>
+          <li
+            onClick={() => setOpen((prevState: boolean) => !prevState)}
+            className="bg-slate-200 mb-4 py-1 w-36 pl-2 rounded"
+          >
             <Link to="contact" className="text-lg font-bold text-primaryOrange">
               Contact Us
             </Link>

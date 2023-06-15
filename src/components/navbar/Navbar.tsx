@@ -37,6 +37,11 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
+            <Link to="/dashboard" className="text-lg font-bold text-[#3C3C3C]">
+              Dashboard
+            </Link>
+          </li>
+          <li>
             <Link to="contact" className="text-lg font-bold text-[#3C3C3C]">
               Contact Us
             </Link>

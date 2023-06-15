@@ -191,7 +191,7 @@
     
     .cpara
     {
-        font-size: 13px;
+        font-size: 1.2em;
         margin-top: 2vh;
     }
     
@@ -225,3 +225,5 @@
     }
 
 }
+
+@media screen and (max-width: 400px)
