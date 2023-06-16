@@ -29,6 +29,9 @@ export default {
       fontFamily: {
         mainFont: "var(--font-raleway)",
       },
+      fontWeight: {
+        ligth :300,
+      }
     },
   },
   plugins: [],

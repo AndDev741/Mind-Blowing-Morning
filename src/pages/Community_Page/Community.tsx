@@ -4,7 +4,7 @@ import Button from "../../components/Buttons/Button";
 
 export default function Community() {
   return (<>
-
+  
     <div className='section w-full flex justify-center items-center my-10'>
       <div className="container">
         <div className="flex main">
@@ -133,6 +133,7 @@ export default function Community() {
         </div>
       </div>
     </div>
+    */
   </>
   );
 }
