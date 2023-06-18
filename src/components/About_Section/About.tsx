@@ -7,7 +7,7 @@ export const About = () => {
     
     <div className='about_section w-screen  box-border bg-primaryOrange relative flex items-center justify-center'>
       <div id='ladyDiv'>
-        <img alt='About' src={cute} className='absolute top-[calc(0px-87px)] w-[200px] h-[100px]' ></img>
+        <img alt='About' src={cute} className='hidden sm:block absolute top-[calc(0px-87px)] w-[200px] h-[100px]' ></img>
       </div> 
         <div className="about_container bg-slate-400 flex flex-col lg:flex-row max-w-[90%] my-6">
             <div className="left lg:w-max w-full flex bg-primaryOrange py-3 pr-14" >

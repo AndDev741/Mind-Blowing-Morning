@@ -1,13 +1,7 @@
+
+
 @media screen and (max-width: 600px){
-    #allDiv{
-        margin-top: -5%;
-    }
-    
-    #h2Small{
-        font-size: 1.6em;
-        margin-bottom: -10%;
-    }
-    
+
     #pHidde{
         display: none;
     }
