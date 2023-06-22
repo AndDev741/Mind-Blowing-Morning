@@ -2,9 +2,12 @@
 import './About.css'
 import './../index.css'
 import Button from '../components/Buttons/Button'
+import Navbar from '../components/navbar/Navbar'
 
 export default function About() {
   return (
+    <>
+    <Navbar/>
     <div className='section w-full flex justify-center items-center'>
       <div className=" container  mt-3">
         <div className="impara flex justify-row ">
@@ -69,5 +72,6 @@ export default function About() {
         </div>
       </div>
     </div>
+    </>
   )
 }

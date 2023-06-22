@@ -11,7 +11,7 @@ export default {
       xl: "1281px",
       "2xl": "1536px",
     },
-
+    prefix: "tw-",
     extend: {
       screens: {
         mobile: '300px',
@@ -35,6 +35,9 @@ export default {
       },
       fontFamily: {
         mainFont: "var(--font-raleway)",
+      },
+      fontWeight: {
+        ligth :300,
       },
     },
   },

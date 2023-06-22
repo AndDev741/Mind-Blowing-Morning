@@ -1,9 +1,4 @@
-div .contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
+
 .Border{
     border-radius: 10px;
 }
@@ -55,4 +50,107 @@ input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button{
     -webkit-appearance:none;
     margin: 0;
+}
+
+@media screen and (max-width: 900px){
+    .contactImage{
+        position: absolute;
+        width: 122px;
+        right: 8%;
+        top: 15%;
+    }
+
+    .input1{
+        padding: 0.4rem;
+        width: 20rem;
+        font-size: 1rem;
+        margin-bottom:1rem ;
+        border: 1px solid grey;
+        border-radius: 4px;
+   }
+   .input2{
+       padding: 0.4rem;
+       width: 20rem;
+       font-size: 1rem;
+       border: 1px solid grey;
+       border-radius: 4px;
+       margin-bottom: 1rem;
+   }
+   .input91{
+       width: 4rem;
+       padding: .1rem;
+       border: 1px solid grey;
+       border-radius: 4px;
+       margin-left: 7%;
+   }
+   .inputnum{
+       margin-left: 12px;
+       padding-left: 12px;
+       padding-top: 3px;
+       padding-bottom: 3px;
+       border: 1px solid grey;
+       border-radius: 4px;
+       width: 280px;
+   }
+   .input4{
+       margin-top: 1rem;
+       border: 1px solid grey;
+       border-radius: 4px;
+       margin-bottom: 1rem;
+       /* padding-left: 5px; */
+       padding: 0.7rem;
+       width: 20rem;
+   }
+}
+
+
+@media screen and (max-width: 380px){
+    .contactImage{
+        position: absolute;
+        width: 80px;
+        right: 5%;
+        top: 23%;
+    }
+
+    .input1{
+        padding: 0.4rem;
+        width: 15rem;
+        font-size: 1rem;
+        margin-bottom:1rem ;
+        border: 1px solid grey;
+        border-radius: 4px;
+   }
+   .input2{
+       padding: 0.4rem;
+       width: 15rem;
+       font-size: 1rem;
+       border: 1px solid grey;
+       border-radius: 4px;
+       margin-bottom: 1rem;
+   }
+   .input91{
+       width: 3rem;
+       padding: .1rem;
+       border: 1px solid grey;
+       border-radius: 4px;
+       margin-left: 14%;
+   }
+   .inputnum{
+       margin-left: 12px;
+       padding-left: 12px;
+       padding-top: 3px;
+       padding-bottom: 3px;
+       border: 1px solid grey;
+       border-radius: 4px;
+       width: 180px;
+   }
+   .input4{
+       margin-top: 1rem;
+       border: 1px solid grey;
+       border-radius: 4px;
+       margin-bottom: 1rem;
+       /* padding-left: 5px; */
+       padding: 0.7rem;
+       width: 15rem;
+   }
 }

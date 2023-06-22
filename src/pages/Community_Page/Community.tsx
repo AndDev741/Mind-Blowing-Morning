@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 import Button from "../../components/Buttons/Button";
+import Navbar from "../../components/navbar/Navbar";
 
 export default function Community() {
   return (<>
-
+  <Navbar/>
     <div className='section w-full flex justify-center items-center my-10'>
       <div className="container">
         <div className="flex">

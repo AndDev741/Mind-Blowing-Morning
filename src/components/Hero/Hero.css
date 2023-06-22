@@ -22,6 +22,7 @@
   align-items: center;
   gap: 1rem;
   flex-direction: column;
+  background-image: url("../../assets/Background.png");
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center;
